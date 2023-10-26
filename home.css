@@ -34,7 +34,7 @@ body{
 
 
 table, th, td{
-    padding: 1rem;
+    padding: 8px;
     border-collapse: collapse;
 
 }
