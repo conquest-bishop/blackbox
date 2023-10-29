@@ -105,6 +105,7 @@ tbody tr:hover{
 }
 
 .card{
+    box-shadow: 0 .4rem .8rem #0005;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
