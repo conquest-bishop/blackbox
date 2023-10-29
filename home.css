@@ -14,7 +14,7 @@ font-family: 'Urbanist', sans-serif;
 body{
     min-height: 100vh;
     background: url(./images/signupback2.jpg) center / cover;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     font-size: 14px;
@@ -103,6 +103,24 @@ thead, th{
 tbody tr:hover{
     background-color: #0000000b;
 }
+
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.updates{
+    color:black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
 
 @media screen and (max-width: 768px){
     body{
