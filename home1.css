@@ -34,53 +34,20 @@ body{
 
  img {
     width: 36px;
-    height: 50px;
+    height: 36px;
     margin-right: 5rem;
-    border-radius: 40%;
+    border-radius: 50%;
 
     vertical-align: middle;
+
+
 }
 
-.barca{
-    width: 36px;
-    height: 40px;
-    margin-right: 5rem;
-    border-radius: 30%;
-
-    vertical-align: middle;
-}
-
-.liv{
-    width: 36px;
-    height: 50px;
-    margin-right: 5rem;
-    border-radius: 40%;
-
-    vertical-align: middle;
-}
-
-.man{
-    width: 46px;
-    height: 50px;
-    margin-right: 5rem;
-    border-radius: 40%;
-
-    vertical-align: middle;
-}
-
-.bo4{
-    width: 40px;
-    height: 40px;
-    margin-right: 5rem;
-    border-radius: 40%;
-
-    vertical-align: middle;
-}
 
 table, th, td{
     padding: 8px;
     border-collapse: collapse;
-    background-color: #222222;
+    background-color: #424242;
     color: beige;
 
 }
