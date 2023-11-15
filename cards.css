@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+h1{
+    color: beige;
+}
+
+.card{
+    position: relative;
+    border-radius: 20px;
+    background: url(./images/silver.jpg);
+    width: 200px;
+    margin-top: 80px;
+}
+
+
+
+.card .card-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.card .overall-rating{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size:xx-large;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.card .name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.card .media-icons{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    color: rgb(15, 15, 15);
+    
+}
+
+body{
+    margin: 80px auto ;
+    height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: #0a0a0a;
+}
+
+section .card .image{
+    
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: silver;
+}
+
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
